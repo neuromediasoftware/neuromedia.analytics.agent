@@ -1,0 +1,17 @@
+{
+  "name": "Demo Agent",
+  "apiKey": "PUT YOUR API KEY HERE",
+  "endpoint":  "https://example.org",
+  "sources": [
+    {
+      "name": "streamname",
+      "uri": "https://admin:pass@example.org/publishingPoint",
+      "parserName": "IcecastLiveStateParser",
+      "frequency": 1,
+      "filters": [
+        "LiveStateMaxMindLocationDetectionFilter",
+        "LiveStateIpHashingFilter"
+      ]
+    }
+  ]
+}
