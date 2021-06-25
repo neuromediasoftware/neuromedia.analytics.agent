@@ -3,8 +3,6 @@
 ## Description
 NeuroMedia Analytics Agent is a service that aims to deliver logs related to content delivery services that are measured by NeuroMedia Analytics. The service can be configured to pre-process, filter and even enrich this data before it is sent to meet specific needs.
 
-The bot will listen to changes in price accross all coins on Binance. By default we're only picking USDT pairs. We're excluding Margin (like BTCDOWNUSDT) and Fiat pairs
-
 > The main features are
 
 - Extraction et expédition du statut en direct
